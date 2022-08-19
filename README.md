@@ -15,7 +15,7 @@
 
 Dentro de la entrega se encuentran cuatro carpetas de los puntos solicitados en el examen de certificación. En ellas se localizan los proyectos a importar en algún IDE de desarrollo para hacer ejecución.
 
-![Untitled](Examen%20Certificacio%CC%81n%20FullStack%20JAVA%20Trainee%200aca777eec2a4a10bd366604e96ea5ee/Untitled.png)
+![Untitled](markdownPics/Untitled.png)
 
 ---
 
@@ -29,7 +29,7 @@ Dentro de la entrega se encuentran cuatro carpetas de los puntos solicitados en 
 > Dentro de la carpeta **“1.ConsultasBaseDatos”** se encuentra un script **“consultas.mysql”** con el desarrollo de las consultas y un **PDF** con los ejemplos de las mismas, siendo ejecutadas en una terminal de MySQL en Linux
 > 
 
-![Untitled](Examen%20Certificacio%CC%81n%20FullStack%20JAVA%20Trainee%200aca777eec2a4a10bd366604e96ea5ee/Untitled%201.png)
+![Untitled](markdownPics/Untitled%201.png)
 
 ---
 
@@ -38,7 +38,7 @@ Dentro de la entrega se encuentran cuatro carpetas de los puntos solicitados en 
 > Para poder desplegar el monitor de estudiantes deberá indicar la ruta con path **“/estudiantes”**. En el caso de que llame la ruta raíz también será redirigido a la ruta mencionada.
 > 
 
-![Untitled](Examen%20Certificacio%CC%81n%20FullStack%20JAVA%20Trainee%200aca777eec2a4a10bd366604e96ea5ee/Untitled%202.png)
+![Untitled](markdownPics/Untitled%202.png)
 
 ---
 
@@ -48,9 +48,9 @@ Dentro de la entrega se encuentran cuatro carpetas de los puntos solicitados en 
 ***Para que todo funcione correctamente el formato de fecha deberá ser DD/MM/AAA ya la validacion esta en etapa de desarrollo.***
 > 
 
-![Untitled](Examen%20Certificacio%CC%81n%20FullStack%20JAVA%20Trainee%200aca777eec2a4a10bd366604e96ea5ee/Untitled%203.png)
+![Untitled](markdownPics/Untitled%203.png)
 
-![Untitled](Examen%20Certificacio%CC%81n%20FullStack%20JAVA%20Trainee%200aca777eec2a4a10bd366604e96ea5ee/Untitled%204.png)
+![Untitled](markdownPics/Untitled%204.png)
 
 ---
 
@@ -59,11 +59,11 @@ Dentro de la entrega se encuentran cuatro carpetas de los puntos solicitados en 
 > Para poder desplegar toda la información de los estudiantes deberá realizar una petición **GET** a la ruta **“/api/v1/estudiantes”** de su servidor.
 > 
 
-![Untitled](Examen%20Certificacio%CC%81n%20FullStack%20JAVA%20Trainee%200aca777eec2a4a10bd366604e96ea5ee/Untitled%205.png)
+![Untitled](markdownPics/Untitled%205.png)
 
 > Para poder obtener a los estudiantes filtrando por ID de Región y Código del Curso (codigo_plan_formativo). Se deberá usar Query Params en la ruta **“/api/v1/estudiantesFilter?region=1&curso=A5”** para la obtención de datos mediante el método get.
 > 
 
-![Untitled](Examen%20Certificacio%CC%81n%20FullStack%20JAVA%20Trainee%200aca777eec2a4a10bd366604e96ea5ee/Untitled%206.png)
+![Untitled](markdownPics/Untitled%206.png)
 
 ---
