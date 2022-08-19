@@ -1,0 +1,11 @@
+/*PUNTO UNO*/
+SELECT e.rut, e.nombre, e.apellido_pat, e.apellido_mat, e.codigo_curso, c.nombre AS comuna FROM Estudiante e INNER JOIN Comuna c ON e.codigo_comuna = c.codigo_comuna WHERE e.codigo_curso = 0012;
+
+/*PUNTO DOS*/
+SELECT c.codigo_curso, c.fecha_inicio, c.fecha_termno, p.descripcion, p.duracion_horas FROM Curso c INNER JOIN Plan_Formativo p ON c.codigo_plan_formativo = p.codigo_plan_formativo;
+
+/*PUNTO TRES*/
+SELECT pf.descripcion, COUNT(pm.codigo_modulo) FROM Plan_Formativo pf INNER JOIN Plan_Modulo pm ON pf.codigo_plan_formativo = pm.codigo_plan_formativo GROUP BY pf.codigo_plan_formativo;
+
+/*PUNTO CUATRO*/
+SELECT pf.codigo_plan_formativo, pf.descripcion, pm.codigo_modulo, m.descripcion FROM Plan_Formativo pf INNER JOIN Plan_Modulo pm ON pf.codigo_plan_formativo = pm.codigo_plan_formativo INNER JOIN Modulo m ON pm.codigo_modulo = m.codigo_modulo WHERE LOWER(pf.descripcion) LIKE '%fullstack%';
